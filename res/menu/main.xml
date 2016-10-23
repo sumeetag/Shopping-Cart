@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codragon.restuarant.MainActivity" >
+    
+    <item
+        android:id="@+id/See_Order"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="see_order"
+        android:icon="@drawable/ic_action_ic_action_send"/>
+    
+
+    <item
+        android:id="@+id/See_PreOrder"
+        android:orderInCategory="100"
+        app:showAsAction="withText"
+        android:title="Pre_Order"
+        />
+    
+    
+</menu>
